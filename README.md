@@ -2,6 +2,13 @@
 
 简单的 demo 包含了 文章的增删改查 登陆等
 
+接口层用了 midwayjs 没想到刚 push 道 github 结果发布了 2.0
+
+后台 antdpro 一直用很好用
+
+前台展示用了 nuxt
+都用 ts 写 但是 ts 也不是很会很多 interface 没有 类型都是 any
+
 参考了 https://github.com/doramart/DoraCMS/ 的增删改查
 参考了 https://www.haomwei.com/ 的 ui
 
