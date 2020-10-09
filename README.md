@@ -1,33 +1,39 @@
-# bff
+## 项目介绍
 
-undefined
+简单的 demo 包含了 文章的增删改查 登陆等
 
-## QuickStart
+参考了 https://github.com/doramart/DoraCMS/ 的增删改查
+参考了 https://www.haomwei.com/ 的 ui
 
-<!-- add docs here for user -->
+![](./images/20201009111832.png)
+![](./images/20201009111855.png)
+![](./images/20201009111908.png)
+![](./images/20201009111949.png)
+![](./images/20201009112016.png)
+![](./images/20201009112016.png)
+![](./images/20201009112334.png)
+![](./images/20201009112408.png)
 
-see [midway docs][midway] for more detail.
+## 目录结构
 
-### Development
+bff //api 接口
 
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
-```
+admin //react antdpro 后台
 
-### Deploy
+webts // nuxt 前台展示
 
-```bash
-$ npm start
-$ npm stop
-```
+## 技术栈
 
-### npm scripts
+ts nuxt midwayjs react antd
 
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+## 开始
 
+1、分别进入目录安装依赖
 
-[midway]: https://midwayjs.org
+2、还原数据 --- 在 bff 目录 执行 node ./build/restore.js
+
+3、
+
+- bff ---npm run dev 开发
+- admin ---npm start 开发
+- webts ---npm run dev 开发
