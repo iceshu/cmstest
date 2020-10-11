@@ -3,5 +3,6 @@
         "activityBar.background": "#5A0B36",
         "titleBar.activeBackground": "#7E0F4B",
         "titleBar.activeForeground": "#FFFCFD"
-    }
+    },
+    "eggHelper.serverPort": 40270
 }

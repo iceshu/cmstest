@@ -1,16 +1,13 @@
-import { WebMiddleware, Middleware, provide } from 'midway'
-
+import { WebMiddleware, provide } from "midway";
 
 @provide()
 export class ApiMiddleware implements WebMiddleware {
-
-  public resolve(): Middleware {
+  public resolve() {
     return async (ctx: any, next: any) => {
       ctx.api = {
         reqTimeStr: new Date().toLocaleString(),
-      }
-      await next()
-    }
+      };
+      await next();
+    };
   }
-
 }
