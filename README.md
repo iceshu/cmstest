@@ -2,7 +2,8 @@
 
 简单的 demo 包含了 文章的增删改查 登陆等
 
-接口层用了 midwayjs 没想到刚 push 道 github 结果发布了 2.0
+~~接口层用了 midwayjs 没想到刚 push 到 github 结果发布了 2.0~~
+已经升级到 2.0
 
 后台 antdpro 一直用很好用
 
